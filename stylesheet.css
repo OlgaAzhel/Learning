@@ -1,5 +1,5 @@
 #container {
-    /*  background      : url(./images/bg-pattern-top.svg) -50% -500px no-repeat, url(./images/bg-pattern-bottom.svg) 100% 500px no-repeat; */
+    /*  background      : url(./bg-pattern-top.svg) -50% -500px no-repeat, url(./bg-pattern-bottom.svg) 100% 500px no-repeat; */
     background-color: hsl(187, 65%, 50%);
     height          : 800px;
     display         : flex;
@@ -12,7 +12,7 @@
 #top-bg {
     width                : 50%;
     height               : 800px;
-    background           : url(./images/bg-pattern-top.svg) top right no-repeat;
+    background           : url(./bg-pattern-top.svg) top right no-repeat;
     background-position-y: -400px;
     align-self           : flex-start;
     margin               : 0 0;
@@ -21,7 +21,7 @@
 #bottom-bg {
     width                : 50%;
     height               : 800px;
-    background           : url(./images/bg-pattern-bottom.svg) top left no-repeat;
+    background           : url(./bg-pattern-bottom.svg) top left no-repeat;
     background-position-y: 400px;
     align-self           : flex-end;
     margin               : 0 0;
