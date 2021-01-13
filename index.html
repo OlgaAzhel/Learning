@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
     <title>Frontend Mentor | Profile card component</title>
 
@@ -32,16 +32,32 @@
         <span id="bottom-bg">
         </span>
         <div id="card">
-            <img id="card-background"
-                src=".\bg-pattern-card.svg">
-            <img id="photo"
-                src=".\image-victor.jpg">
-            <h2>Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos</h2>
+            <img id="card-background" src=".\bg-pattern-card.svg">
+            <img id="photo" src=".\image-victor.jpg">
+            <div id="name">
+                <span id="bold2">Victor Crest</span>
+                <span class="grey2">26</span>
+            </div>
+            <div id="city">
+                <span class="grey2">London</span>
+            </div>
+            <div id="statistics">
+                <container class="stat">80K
+                    <p id="grey1">Followers</p>
+                </container>
+                <container class="stat">803K
+                    <p id="grey1">Likes</p>
+                </container>
+                <container class="stat">1.4K
+                    <p id="grey1">Photos</p>
+                </container>
+            </div>
+        </div>
     </section>
     <!--   <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
         <a href="#">Your Name Here</a>. -->
-    </div>
+
 </body>
 
 </html>
